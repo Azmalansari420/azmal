@@ -1,0 +1,44 @@
+.login-body{background-image:url(../images/login-bg-1.jpg);}
+
+.navigation-container{position:fixed; width:125px; background-color:#2196F3; top:0; left:0; height:100%; z-index:999; box-shadow:-5px 0 5px #0072ff inset;  -moz-box-shadow:-5px 0 5px #0072ff inset; -webkit-box-shadow:-5px 0 5px #0072ff inset; -o-box-shadow:-5px 0 5px #0072ff inset; transition:0.2s all ease-in-out; -moz-transition:0.2s all ease-in-out; -webkit-transition:0.2s all ease-in-out; -o-transition:0.2s all ease-in-out}
+
+/*Voilet*/
+.navigation-container{background-image: linear-gradient(to bottom, #9D50BB 0%, #6E48AA 51%, #9D50BB 100%)}
+
+.main-nav li a:hover{background-color:#6E48AA}
+.navigation-container{box-shadow:-5px 0 5px #6e48aa inset; -moz-box-shadow:-5px 0 5px #6e48aa inset; -webkit-box-shadow:-5px 0 5px #6e48aa inset; -o-box-shadow:-5px 0 5px #6e48aa inset;}
+.main-nav > li > a.active{background-color: #6E48AA;}
+
+.ico{color:#9D50BB}
+.form-control{color:#666}
+
+.admin-header-nav .profile .ico{color:#9D50BB}
+.admin-header-nav .profile:hover{background-color:#9D50BB}
+.admin-header-nav li a:hover{background-color:#9D50BB}
+
+.main-nav li.nav-item.parent.current{background-color:#9D50BB}
+
+.form-tabs .nav-tabs{background-color:#6E48AA}
+.form-tabs .nav-tabs li a.active{border-top:3px solid #9D50BB; color:#9D50BB}
+.nav-tabs .nav-item.open .nav-link,
+.nav-tabs .nav-item.open .nav-link:focus,
+.nav-tabs .nav-item.open .nav-link:hover,
+.nav-tabs .nav-link.active,
+.nav-tabs .nav-link.active:focus,
+.nav-tabs .nav-link.active:hover{border-top-color:#6E48AA; color:#6E48AA}
+.form-tabs .nav-tabs li a.active .ico{color:#9D50BB;}
+.form-tabs .nav-tabs li a:hover{border-top-color:#9D50BB}
+
+.datagrid-headings{background-color:#6e48aa !important;}
+
+header .search-form .form-control::-webkit-placeholder{color:#9D50BB;}
+header .search-form .form-control::-o-placeholder{color:#9D50BB;}
+header .search-form .form-control::placeholder{color:#9D50BB;}
+
+ul.wd-ui-radio li:hover label{color:#9d50bb}
+ul.wd-ui-radio li:hover .check{border-color:#9d50bb}
+ul.wd-ui-radio input[type="radio"]:checked ~ label{background-color:#9d50bb}
+
+.tags-container-block .wd-tag-item{background-color:#9D50BB}
+.tags-container-block .wd-tag-item:hover{background-color:#6e48aa}
+.tags-container-block .wd-tag-item a{color:#6e48aa}

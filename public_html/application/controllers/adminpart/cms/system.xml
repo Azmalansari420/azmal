@@ -1,0 +1,41 @@
+<system>
+	<title>CMS</title>
+	<menu_tab>Front</menu_tab>
+	<!--title will be used as main menu link lable-->
+	<details>Content Management System</details>
+	<!--details of the module-->
+	<position>1</position>
+	<menu>
+		<title>CMS Pages</title>
+		<link>cms/index</link>
+		<position>1</position>
+		<submenu>
+			<item>
+				<title>Add new Group</title>
+				<link>configs/index/add</link>
+			</item>
+		</submenu>
+	</menu>
+	<menu>
+		<title>Html Blocks</title>
+		<link>cms/htmlblocks</link>
+		<position>2</position>
+		<!--<submenu>
+			<item>
+				<title>Add new Group</title>
+				<link>configs/index/add</link>
+			</item>
+		</submenu>-->
+	</menu>
+	<menu>
+		<title>PHP Blocks</title>
+		<link>cms/phpblocks</link>
+		<position>3</position>
+		<!--<submenu>
+			<item>
+				<title>Add new Group</title>
+				<link>configs/index/add</link>
+			</item>
+		</submenu>-->
+	</menu>
+</system>

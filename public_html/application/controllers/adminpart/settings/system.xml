@@ -1,0 +1,19 @@
+<system>
+	<title>Quotes</title>
+	<menu_tab>System</menu_tab>
+	<!--title will be used as main menu link lable-->
+	<details>Quotes Manager</details>
+	<!--details of the module-->
+	<position>1</position>
+	<menu>
+		<title>Quotes Location</title>
+		<link>quotes/index</link>
+		<position>1</position>
+		<submenu>
+			<item>
+				<title>Add new location</title>
+				<link>location/index/add</link>
+			</item>
+		</submenu>
+	</menu>
+</system>

@@ -1,0 +1,25 @@
+.nav-option-item{display:block; padding:5px 15px; text-align:center; cursor:pointer;}
+.nav-option-item:hover{background-color:rgba(0,0,0,.05)}
+.nav-option-item i{display:block; margin:0 auto; float:none; clear:both; font-size:20px; color:#aaa}
+.nav-option-item b{font-weight:600; color:#666; font-size:11px; text-transform:uppercase}
+.navigation-item .empty-item{padding:20px; border:2px dashed #aaa; color:#999; text-transform:uppercase; font-size:15px; cursor:pointer; text-align:center;}
+.navigation-item .empty-item:hover{background-color:#fefefe; border:2px dashed #666; color:#666}
+
+.nav-item-details-box{float:left; color:#111; font-weight:600}
+.nav-item-details-box > .ico{cursor:default; color:#999; font-size:20px;}
+.edit-nav-item{cursor:pointer; float:left; margin-left:10px; opacity:.2; transition:.2s all ease-in-out}
+.edit-nav-item .ico{color:#999; cursor:pointer; font-size:14px;}
+
+.menu-item:hover .edit-nav-item{opacity:1;}
+
+.temp-menu-main-form{clear:both; float:left; width:100%; margin-top:10px;}
+
+.menu-item-tabs{background-color:#eee}
+.menu-item-tabs .nav-link{border-right:1px solid #ccc; padding:0}
+.menu-item-tabs .nav-link:last-child{border-right:0 none}
+.menu-item-tabs .nav-link.active{background-color:#fff}
+.tab-content{padding:25px;}
+
+.nav-item-form .form-group{margin-bottom:10px;}
+.nav-item-form label{margin:0; font-weight:600; font-size:12px; color:#666; letter-spacing:.5px;}
+.nav-item-form .form-control{font-size:13px; max-width:400px;}

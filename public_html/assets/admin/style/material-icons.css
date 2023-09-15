@@ -1,0 +1,3 @@
+@font-face{font-family:'Material Icons'; font-style:normal; font-weight:400; src:url(icons/MaterialIcons-Regular.eot); src:local('icons/Material Icons'), local('MaterialIcons-Regular'), url(icons/MaterialIcons-Regular.woff2) format('woff2'), url(icons/MaterialIcons-Regular.woff) format('woff'), url(icons/MaterialIcons-Regular.ttf) format('truetype');}
+
+.material-icons{font-family:'Material Icons'; font-weight:normal; font-style:normal; font-size:24px; display:inline-block; width:1em; height:1em; line-height:1; text-transform: none; letter-spacing:normal; word-wrap:normal; white-space:nowrap; direction:ltr; -webkit-font-smoothing:antialiased; text-rendering:optimizeLegibility; -moz-osx-font-smoothing:grayscale; font-feature-settings:'liga';}

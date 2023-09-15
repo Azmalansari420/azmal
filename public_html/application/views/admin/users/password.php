@@ -1,0 +1,1 @@
+<button type="button" onclick="window.location.href = '<?php echo admin_url("users/index/reset_user_password/{$user_data['id']}")?>'" class="btn btn-xs btn-warning">Reset Password</button>
