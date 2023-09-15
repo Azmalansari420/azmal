@@ -1,0 +1,2 @@
+# azmal
+all
